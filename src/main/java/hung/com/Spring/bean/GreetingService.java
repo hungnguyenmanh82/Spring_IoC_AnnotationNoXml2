@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import hung.com.Spring.lang.Language;
 
-@Service
+@Service //singleton
 public class GreetingService {
  
    @Autowired
